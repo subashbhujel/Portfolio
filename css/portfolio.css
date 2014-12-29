@@ -1,0 +1,88 @@
+﻿body {
+    background: #34495e;
+    color: #1abc9c;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.scroll-panel {
+    padding-top: 78px;
+}
+
+.navbar {
+    border-radius: 0;
+    position: fixed;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.jumbotron {
+    border-radius: 0 !important;
+    padding: 0 !important;
+}
+
+jumbotron-midnight {
+    background: #34495e;
+    color: #1abc9c;
+    margin: 0;
+}
+
+.showcase-item {
+    height: 220px;
+    padding: 2px;
+}
+
+    .showcase-item .showcase-item-box {
+        background: #7f8c8d;
+        color: #ffffff;
+        padding: 40px;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+    }
+
+        .showcase-item .showcase-item-box:hover img {
+            -webkit-animation: shake .5s linear;
+        }
+
+@-webkit-keyframes shake {
+   0% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+            transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+}
+
+.bottom-menu {
+    margin-top: 50px;
+}
+
+.text-centered {
+    text-align: center;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.full-width {
+    width: 100%;
+}
+
+@media(max-width: 767px) {
+    .jumbotron h1 {
+        font-size: 31px;
+    }
+}
